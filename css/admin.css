@@ -1,0 +1,141 @@
+.container_admin {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+
+.Element_modif {
+
+    color: #F4F5F5;
+    width: 600px;
+    height: 400px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+#Element_modif1 {
+
+    width: 100%;
+    height: 100%;
+    background-image: url(css_img/Ajout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Element_modif2 {
+
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    background-image: url(css_img/Modification.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Element_modif3 {
+
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    background-image: url(css_img/Suppresion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Element_modif4 {
+
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+    background-image: url(css_img/Message.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Element_modif a {
+
+    font-size: 30px;
+    color: #F4F5F5;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Element_modif a:hover {
+
+    color: #a7001e;
+}
+
+#actionsup {
+
+    font-size: 24px;
+    color: #a7001e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #F4F5F5;
+    font-weight: bold;
+}
+
+a:hover {
+    
+    color: #a7001e;
+}
+
+@media (max-width: 1250px) {
+
+    .Element_modif {
+
+
+        width: 250px;
+        height: 250px;
+
+    }
+}
+
+@media (max-width: 425px) {
+
+    .Element_modif {
+
+
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .Element_modif a {
+
+
+        font-size: 18px;
+
+    }
+}

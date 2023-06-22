@@ -1,0 +1,62 @@
+body {
+     margin: 0;
+     background-color: #000000;
+     color: #F4F5F5;
+     width: 100%;
+
+}
+
+.grandcontainer {
+     display: flex;
+     margin-bottom: 150px;
+
+}
+
+.Grandeimgingr {
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 800px;
+     font-size: 28px;
+
+}
+
+.bouton_acheter {
+     margin-top: 50px;
+     text-decoration: none;
+     color: #A7001E;
+}
+
+.bouton_acheter:hover {
+     color: #F4F5F5;
+}
+
+.Grandebouteilleimg {
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+     font-size: 28px;
+     text-align: center;
+
+}
+
+
+.Grandebouteilleimg img {
+     width: 800px;
+     height: 600px;
+
+}
+
+
+.nom {
+     font-size: 40px;
+     margin-bottom: 40px;
+     font-family: 'Courgette', cursive;
+     color: #A7001E;
+
+}

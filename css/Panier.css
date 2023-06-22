@@ -1,0 +1,57 @@
+table {
+
+  font-size: 28px;
+  table-layout: fixed;
+  width: 100%;
+  color: #F4F5F5;
+
+}
+
+table th,
+td {
+  border: 3px solid #000000;
+}
+
+table td {
+  text-align: center;
+  padding: 30px;
+
+
+
+}
+
+table img {
+  width: 250px;
+  height: 200px;
+}
+
+
+table tr:nth-child(even) {
+  background-color: #1e0f1c;
+}
+
+table tr:nth-child(odd) {
+  background-color: #a7001e;
+}
+
+tfoot {
+  position: relative;
+  top: 50px;
+  left: 30%;
+}
+
+a {
+  text-decoration: none;
+  color: #F4F5F5;
+}
+
+#Poubelle {
+  color: #F4F5F5;
+  font-size: 40px;
+}
+
+
+.total th:last-child {
+  background-color: #3B39B9;
+
+}

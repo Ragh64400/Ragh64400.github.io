@@ -1,0 +1,252 @@
+body {
+    background-color: #000000;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+p {
+    color: #F4F5F5;
+}
+
+.Titre1 {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.Titre1 h1 {
+    color: #F4F5F5;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+
+}
+
+#divtext1 {
+
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+
+}
+
+.text1 {
+
+    display: block;
+    width: 1000px;
+    color: #F4F5F5;
+    font-size: 22px;
+}
+
+/* Trait rouge */
+#trait {
+
+    margin-top: 50px;
+    width: 100%;
+    background-color: #A7001E;
+    height: 10px;
+    border-top: #000000 solid 1px;
+    border-radius: #000000 solid 1px;
+    box-shadow: 1px -1px 6px 2px #A7001E;
+}
+
+.container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bloc_bouteille {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.bloc_img {
+
+    margin: 5px;
+}
+
+img {
+    width: 550px;
+    height: 400px;
+}
+
+.bloc_text {
+    width: 350px;
+    height: 400px;
+    background-color: #303030;
+    margin: 5px;
+}
+
+.Titreh3 {
+
+    font-family: 'Courgette';
+    margin: 50px;
+    color: #A7001E;
+    margin-right: 250px;
+    font-size: 34px;
+    white-space: nowrap;
+    /* Pas de retour a la ligne */
+
+}
+
+.textcocktail2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10px;
+
+}
+
+.link a {
+    font-size: 60px;
+    color: #A7001E;
+    position: fixed;
+    top: 90px;
+    right: 80px;
+
+}
+
+span {
+    background-color: #F4F5F5;
+    color: #000000;
+    padding: 5px;
+    position: fixed;
+    top: 130px;
+    border-radius: 100%;
+    right: 80px;
+    font-size: 30px;
+}
+
+.bloc_text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloc_text p {
+
+    text-align: center;
+
+}
+
+.bloc_text a {
+    text-decoration: none;
+    color: #F4F5F5;
+    font-size: 24px;
+}
+
+.bloc_text a:hover {
+    font-size: 22px;
+    color: #A7001E;
+}
+
+/* Nombre d'élément dans le panier */
+
+
+/* Media queris de 920 à 760 */
+@media (max-width: 920px) {
+
+    .container {
+        justify-content: center;
+
+    }
+
+    .link a {
+        font-size: 50px;
+        top: 40px;
+        right: 40px;
+    }
+
+    span {
+        top: 70px;
+        border-radius: 100%;
+        right: 36px;
+        font-size: 26px;
+    }
+
+    img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .bloc_bouteille {
+        flex-direction: column;
+
+
+    }
+
+    .textcocktail2 {
+        display: inline-block;
+
+    }
+
+    .bloc_text {
+        width: 350px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .bloc_text p {
+        margin: 0;
+        margin-right: 10px;
+    }
+}
+
+/* Media queris de 760 à 400*/
+@media (max-width: 760px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .link a {
+        font-size: 30px;
+        top: 40px;
+        right: 40px;
+    }
+
+    span {
+        top: 60px;
+        border-radius: 100%;
+        right: 36px;
+        font-size: 14px;
+    }
+
+    img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .bloc_text {
+        width: 250px;
+        height: 100px;
+    }
+}

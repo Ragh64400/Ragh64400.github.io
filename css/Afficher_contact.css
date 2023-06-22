@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    color: white;
+    margin-bottom: 200px;
+
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid white;
+
+}
+
+
+
+th {
+    background-color: #A7001E;
+}
+
+h1 {
+    color: white;
+}

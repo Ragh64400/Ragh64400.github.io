@@ -1,0 +1,301 @@
+body {
+      margin: 0;
+      background-color: #000000;
+}
+
+#section1 {
+      width: 100%;
+      background-color: #A7001E;
+
+}
+
+.Titre1 {
+      margin-top: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+}
+
+.Titre1 h1 {
+      color: #F4F5F5;
+}
+
+h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 50px;
+
+}
+
+#divtext1 {
+
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: #000000;
+
+}
+
+.text1 {
+
+      font-family: 'Fira Sans Condensed', sans-serif;
+      display: block;
+      width: 1000px;
+      color: #F4F5F5;
+      font-size: 22px;
+}
+
+.image1 {
+      margin-top: 20px;
+      background: url(../img/Barman.jpg);
+      background-size: cover;
+      background-position: center;
+      width: 600px;
+      height: 600px;
+}
+
+
+/* Trait rouge */
+#trait {
+      margin-bottom: 80px;
+      margin-top: 100px;
+      width: 100%;
+      background-color: #A7001E;
+      height: 10px;
+      border-top: #000000 solid 1px;
+      border-radius: #000000 solid 1px;
+      box-shadow: 1px -1px 6px 2px #A7001E;
+}
+
+/* Section deux */
+#section2 {
+      width: 100%;
+      background-color: #000000;
+}
+
+/* Contenant toute les divs, partie cocktails */
+.contenant {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.Titre2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+
+h2 {
+      font-family: 'Playfair Display', serif;
+      color: #F4F5F5;
+      font-size: 50px;
+}
+
+/* Div1 container de .div1h3(Div Titre + texte cocktails) */
+#img1 {
+      display: flex;
+      align-items: center;
+
+}
+
+
+
+#img1 img {
+      width: 450px;
+      height: 600px;
+      margin-top: 50px;
+      margin-left: 300px;
+      transform: scale(1);
+      transition: 0.1s ease-in-out;
+}
+
+#img1 img:hover {
+      transform: scale(0.95);
+}
+
+h3 {
+      font-family: 'Courgette';
+      color: #A7001E;
+
+
+}
+
+.textcocktail {
+      font-family: 'Fira Sans Condensed', sans-serif;
+      margin-left: 30px;
+      font-size: 24px;
+}
+
+/* Div2 container de .div1h3(Div Titre + texte cocktails)*/
+#img2 {
+      flex-direction: row-reverse;
+      display: flex;
+      align-items: center;
+}
+
+#img2 img {
+      width: 400px;
+      height: 600px;
+      margin-top: 50px;
+      margin-right: 300px;
+      transform: scale(1);
+      transition: 0.1s ease-in-out;
+}
+
+#img2 img:hover {
+      transform: scale(0.95);
+}
+
+
+
+.textcocktail2 {
+      font-family: 'Fira Sans Condensed', sans-serif;
+      margin-right: 30px;
+      font-size: 24px;
+}
+
+/*Div Titre + texte cocktails*/
+.div1h3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 30px;
+      width: 900px;
+      color: #F4F5F5;
+      font-size: 36px;
+      text-align: justify;
+      margin-bottom: 180px;
+      margin-left: 20px;
+}
+
+
+/* Section trois */
+.section3 {
+      width: 100%;
+}
+
+.zoomcocktail {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 200px;
+      margin-bottom: 200px;
+}
+
+.zoomcocktail img {
+      width: 380px;
+      height: 280px;
+      margin-top: 10px;
+      margin: 10px;
+}
+
+
+
+.zoomcocktail img:hover {
+      transform: scale(1.2);
+      transition: 1s ease-in-out;
+}
+
+
+
+/* partie du cours css carousel */
+#phrasesSlide {
+      margin-top: 100px;
+      height: 60rem;
+      width: 100%;
+      border-top: 1px dashed rgb(209, 174, b59);
+      background: url(../img/Plusieurscoctail.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+}
+
+.cadre {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 40rem;
+      transform: translate(-50%, -50%);
+      border-radius: 2px;
+      color: #F4F5F5;
+}
+
+.centre {
+
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      margin-top: -2.25rem;
+}
+
+.carousel {
+
+      position: relative;
+      width: 100%;
+      height: 4.5rem;
+      text-align: center;
+      line-height: 45px;
+
+}
+
+.carousel .changeHidden {
+
+
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: auto;
+      height: 13rem;
+      line-height: 13rem;
+      width: 100%;
+      overflow: hidden;
+}
+
+.carousel .changeHidden .contenant {
+      position: relative;
+      animation: carousel 8s ease-in-out infinite;
+
+}
+
+.carousel .changeHidden .element {
+      font-weight: 700;
+      font-size: 8rem;
+}
+
+@keyframes carousel {
+
+      0%,
+      20% {
+            transform: translateY(0);
+      }
+
+      25%,
+      45% {
+            transform: translateY(-13rem);
+      }
+
+      50%,
+      70% {
+            transform: translateY(-26rem);
+      }
+
+      75%,
+      95% {
+            transform: translateY(-39rem);
+      }
+
+      100% {
+            transform: translateY(-52rem);
+      }
+}

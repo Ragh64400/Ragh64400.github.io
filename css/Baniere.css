@@ -1,0 +1,94 @@
+body {
+   margin: 0;
+}
+
+/* NAVIGATION HEADER */
+h1 {
+   font-family: 'Playfair Display', serif;
+}
+
+
+
+#acceuil {
+   background-color: #F4F5F5;
+   display: flex;
+}
+
+
+#Navigation {
+
+   width: 100%;
+   background-color: #F4F5F5;
+   text-align: center;
+   box-shadow: 5px -1px 15px 5px #A7001E;
+}
+
+#Navigation a {
+   font-family: 'Playfair Display', serif;
+   text-decoration: none;
+   padding: 10px 50px;
+   line-height: 6.5rem;
+   background-image: linear-gradient(to right, #1e0f1c, #a7001e);
+   /*Dégradé de couleur */
+   background-clip: text;
+   -webkit-background-clip: text;
+   /* Pour que les navigateur prennent la propriété */
+   color: transparent;
+   font-size: 42px;
+
+
+}
+
+
+#Navigation a:hover {
+   transition-duration: 0.6s;
+   background-image: linear-gradient(to right, #a7001e, #1e0f1c);
+   border-bottom: solid 1px #F4F5F5;
+}
+
+#Navigation a:focus {
+   font-size: 40px;
+}
+
+/* Logo header */
+#IconCocdiv {
+   background-color: #F4F5F5;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.icons {
+   display: none;
+   /* Logo "none" pour le faire revenir en media queries */
+}
+
+#IconCoc {
+   color: #000000;
+   border: solid 2px #000000;
+   ;
+   font-size: 80px;
+   border-radius: 80%;
+   padding: 15px;
+   background-color: #F4F5F5;
+   box-shadow: 0 0 0 0 rgb(0, 0, 0);
+   animation: pulse 2s infinite;
+
+
+}
+
+#mail_utilisateur {
+   position: absolute;
+   right: 30px;
+   top: 30px;
+   color: #a7001e;
+   font-size: 24px;
+}
+
+@keyframes pulse {
+
+   /* keyframes permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS */
+   to {
+      box-shadow: 0 0 0 6px rgba(219, 38, 38, 0.01);
+   }
+}

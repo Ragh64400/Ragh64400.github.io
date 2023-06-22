@@ -1,0 +1,53 @@
+body {
+      margin: 0;
+      background-color: #000000;
+      color: #F4F5F5;
+      width: 100%;
+
+}
+
+
+
+.grandcontainer {
+      display: flex;
+      margin-bottom: 150px;
+}
+
+.Grandeimgingr {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      word-wrap: break-word;
+      margin-left: 50px;
+      width: 800px;
+      font-size: 28px;
+      font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+
+
+.Grandeimage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      font-size: 28px;
+}
+
+
+
+.Grandephoto {
+      width: 350px;
+      height: 550px;
+}
+
+.nom {
+      font-size: 40px;
+      margin-bottom: 40px;
+      font-family: 'Courgette', cursive;
+      color: #A7001E;
+}
